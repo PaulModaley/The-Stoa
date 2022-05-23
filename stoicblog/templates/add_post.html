@@ -31,6 +31,11 @@
 </header>
 <div class="container">
     <div class="row">
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{form.as_p}}
+        <button type="submit">Submit</button>
+        </form>
         <!-- Blog Entries Column -->
         <!-- <div class="col-md-8 mt-3 left">
             {% for post in post_list %}
