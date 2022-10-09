@@ -41,12 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'stoicblog',
-<<<<<<< HEAD
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
-=======
->>>>>>> origin
 ]
 
 MIDDLEWARE = [
